@@ -1,0 +1,122 @@
+THIS IS JUST A ROUGH DRAFT OF THIS DOCUMENT AND BY NO MEANS IS IT COMPLETE.
+
+
+
+
+
+FirstFantasy is project that I've been thinking about for years.  I am a
+
+long-time fan of the Square Soft (now Square Enix) Final Fantasy series.  I
+
+would like to create an RPG game with an original story based on that series.
+
+I've downloaded several sprites from the original Final Fantasy and plan to
+
+use them in my game.  Because these sprites are copyrighted, I cannot legally
+
+charge money for this game.  I'm doing it for the experience and because I've
+
+always wanted to write a large-scale game, even if the idea is not completely
+
+original.  Think of it as if it were a movie based on fan fiction.
+
+
+
+Along with this file I have uploaded an archive containing all the sprites I
+
+have at this point.  Ally sprites and two enemy sprites.
+
+
+
+Here we go.  Here is the planned breakdown of classes in this project (this
+
+may change in the future):
+
+
+
+Map Screen:
+
+   Tile.class
+
+   
+
+
+
+City Screen:
+
+   Shop.class
+
+  --Character.class --> NPC.class
+
+  | TreasureChest.class
+
+  |
+
+Battle:
+
+  |--Character.class --> Ally.class
+
+                   \-> Enemy.class
+
+
+
+   AllyParty.class
+
+   EnemyParty.class
+
+
+
+
+
+Description of classes:
+
+
+
+   Tile.class - This class determines the landscape of a particular area
+
+   Shop.class - Used for all shops and inns
+
+   NPC.class - Inherits from Character.class and is the basis for non playable
+
+               characters
+
+    
+
+   Character.class - Base class for more specialized Characters (Allies, enemies,
+
+                     NPCs)
+
+
+
+   Ally.class - A single protagonistic character. 
+
+   
+
+   Enemy.class - A single antagonistic character
+
+
+
+   AllyParty.class - A group of Allies.  This class contains attributes that
+
+                     all Allies share, such as item and equipment inventories.
+
+
+
+   EnemyParty.class - A group of enemies.  Similar to AllyParty.class
+
+
+
+
+
+I plan to use a database to store all Character data, etc.
+
+
+
+This outline is by no means comprehensive.  It is just a rough draft for a
+
+starting point.
+
+   
+
+
+

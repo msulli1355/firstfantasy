@@ -1,0 +1,19 @@
+Mob Placement algorithm:
+
+If loop invariant % 4 == 0
+{
+   switch (i)
+   {
+      case i < 13:
+      	xPos = 200; 
+      	break;
+      case i < 9:
+      	xPos = 100;
+	break;
+      case i < 5:
+        xPos = 0;
+	break;
+   }
+   yPos = i/4;
+
+}

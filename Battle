@@ -1,0 +1,5 @@
+Each Enemy object should contain a pointer to an array of structures.  These structures should contain a pointer to each Ally and an integer holding a value of how much enmity that Ally has earned.
+
+Mob parties should have strategic intelligence and be capable of coordinated attacks
+
+Some mobs (at this point called "mirror" mobs) should, in addition to the ablilities inherent in thier class makeup, have the abilty to use their current target's abilities.

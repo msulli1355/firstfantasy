@@ -1,0 +1,11 @@
+Equipment may have status bonuses for equipping said item
+
+A character may store up to a finite number of rages (limit breaks) as determined on a per-character basis.  This number can go up based on equipment, level, job, etc. etc.
+
+Log Window:
+	Create a method for the log window insert(string) by which text can be submitted to the log window for display.
+
+
+Enmity:
+
+         Each Enemy holds enmity variables for each Ally.  The Enemy attacks the Ally with the highest number.  Each point of damage decreases that Ally's enmity count.  Decide on formula for calculating Ally enmity gain later.

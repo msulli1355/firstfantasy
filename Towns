@@ -1,0 +1,5 @@
+Each town shall belong to a town object
+
+A town object will contain a variable to keep count of how many battles and/or mobs are defeated in the area controlled by the town.
+
+For each 100 battles fought, base price of items and services offered by said town will decrease by 1%

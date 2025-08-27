@@ -1,0 +1,13 @@
+BattleInit
+   Set Ally starting position
+   Set Enemy starting position
+   Draw Battle screen/status information/sprites
+BattleOrder
+   Randomly select turn order, taking into account stats (eventually)
+   Next character selects action and target
+   Execute action (applying status effects)
+CheckStatus
+   Process negative status effects
+   Hit point negation
+   If character is critical, re-assign sprite (25%)
+   If character is dead, re-assign sprite and remove them from the turn order and abort any actions they may have ordered

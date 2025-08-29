@@ -1,0 +1,21 @@
+#ifndef ALLY_H
+#define ALLY_H
+
+#include "character.h"
+
+class Ally : public Character
+{
+   public:
+      Ally() {}
+      Ally(char* name, int jobclass);
+      ~Ally();
+      void setCurrentSprite(int index);
+      int getCurrentSprite() { return index; }
+      bool advance();
+      bool retreat();
+      
+
+   private:
+      enum STATE { FIGHT, WALK, RAISE, STRIKE, HIT, HURT, DEAD};
+};
+#endif

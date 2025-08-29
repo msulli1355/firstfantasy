@@ -1,0 +1,25 @@
+#ifndef PARTY_H
+#define PARTY_H
+
+#include "character.h"
+
+//This class provides a base class from which AllyParty and EnemyParty can be derived, so behavior common to each goes here.
+class Party
+{
+   public:
+      Party() { size = 0;}
+      Party(int s);
+      ~Party();
+      int getSize() { return size; }
+      void setSize(int s) { size = s; };
+      Character* getMember(int); 
+      void addChar(Character*);
+      void deleteChar(Character*);
+
+   private:
+   protected:
+      int size; //Size of the party.  EnemyParty objects may have 
+                // a different size than AllyParty objects.
+      Character* character;
+};
+#endif

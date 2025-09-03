@@ -170,7 +170,10 @@ class Character():
         return self.y_Pos
     def set_y_Pos(self, y_Pos):
         self.y_Pos = y_Pos
-
+   
+   #Other stuff
+   def set_name(self, name):
+    self.name = name
     
     
     

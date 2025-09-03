@@ -27,7 +27,7 @@ bool Ally::retreat()
 }
 '''
 from character import *
-class Ally(character):
+class Ally(Character):
    def __init__(self, n, jobclass):
       setName(n)
       self.current_rect = rect()

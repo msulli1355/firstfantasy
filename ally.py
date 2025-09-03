@@ -29,8 +29,8 @@ bool Ally::retreat()
 from character import *
 class Ally(Character):
    def __init__(self, n, jobclass):
-      setName(n)
-      self.current_rect = rect()
+      set_name(n)
+      self.current_rect = Rect()
    def set_current_sprite(self, index):
       self.current_rect.w = 64
       self.current_rect.h = 64
